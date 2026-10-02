@@ -1,10 +1,15 @@
+import java.util.Scanner;
+
 public class readint {
 
     public static void main(String[] args) {
 
-        int n = 10;
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
 
         System.out.println(n);
 
+        sc.close();
     }
 }
